@@ -21,5 +21,6 @@ int main(int argc, char** argv) {
   }
   return EXIT_SUCCESS;
 #endif
+  // main函数
   return Envoy::MainCommon::main(argc, argv);
 }
